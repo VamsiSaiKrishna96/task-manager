@@ -15,9 +15,7 @@ function App() {
     setTasks([...tasks.filter((task) => task.id !== id)]);
   }
 
-  useEffect(() => {
-    console.log("data updated");
-  }, []);
+  useEffect(() => {}, []);
 
   function setAsChecked(id) {
     setTasks((currentTasks) => {
