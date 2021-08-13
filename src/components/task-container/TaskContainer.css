@@ -1,0 +1,6 @@
+.task-container {
+  border: 1px solid blueviolet;
+  width: 600px;
+  border-radius: 8px;
+  min-height: 300px;
+}

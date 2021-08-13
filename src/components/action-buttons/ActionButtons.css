@@ -1,0 +1,14 @@
+.actions-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 15px 10px 15px 10px;
+}
+
+.actions-container .add-button {
+    cursor: pointer;
+  padding: 10px 12px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+}

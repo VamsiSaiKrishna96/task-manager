@@ -1,0 +1,23 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 2px black;
+  padding: 5px 5px 5px 10px;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: greenyellow;
+}
+
+.task-detail {
+  font-size: 14px;
+}
+
+.delete {
+  cursor: pointer;
+}
