@@ -10,7 +10,7 @@ function App() {
   ]);
 
   function removeFromList(id) {
-    console.log(id);
+    console.log(id, "id");
 
     setTasks([...tasks.filter((task) => task.id !== id)]);
   }
