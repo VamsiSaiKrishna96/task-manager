@@ -15,7 +15,9 @@ function App() {
     setTasks([...tasks.filter((task) => task.id !== id)]);
   }
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    console.log("added test");
+  }, []);
 
   function setAsChecked(id) {
     setTasks((currentTasks) => {
