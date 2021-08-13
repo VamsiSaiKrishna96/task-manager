@@ -21,7 +21,7 @@ function App() {
 
   function setAsChecked(id) {
     setTasks((currentTasks) => {
-      console.log(currentTasks);
+      // removed console
       return [
         ...currentTasks.map((task) =>
           task.id === id ? { ...task, checked: !task.checked } : task
