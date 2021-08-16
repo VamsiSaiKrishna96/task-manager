@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "---------Running precommit scripts for html, js, css files-----------"
+npx lint-staged
+echo "---------precommit scripts for html, js, css files passed successfully-----------"

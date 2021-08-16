@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "husky": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -16,6 +17,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "lint-staged": {
+    "*.{js,json,md,yml}": "prettier --write",
+    "*.{css,scss}": [
+      "prettier --write",
+      "stylelint --fix"
+    ],
+    "*.html": [
+      "prettier --write",
+      "eslint --fix --max-warnings=0",
+      "htmlhint"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +47,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "htmlhint": "^0.15.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1"
   }
 }
