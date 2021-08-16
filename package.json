@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vamsisaikrishna96.github.io/task-manager",
   "name": "task-manager",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "htmlhint": "^0.15.1",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
