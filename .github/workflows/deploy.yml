@@ -1,6 +1,6 @@
 name: Deployment
 on:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [15.x]
+        node-version: 14
 
     steps:
       - name: Checkout

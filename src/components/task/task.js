@@ -1,4 +1,5 @@
 import "./Task.css";
+import cross from "../../assets/cross.svg";
 const Task = ({ task, removeFromList, setAsChecked }) => {
   return (
     <div
@@ -7,7 +8,7 @@ const Task = ({ task, removeFromList, setAsChecked }) => {
     >
       <div className="task-detail">{task.detail}</div>
       <span className="delete" onClick={() => removeFromList(task.id)}>
-        X
+        <img src={cross} alt="cross-img" className="cross-image" />
       </span>
     </div>
   );
