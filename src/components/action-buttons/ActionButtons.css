@@ -7,13 +7,13 @@
 
 .actions-container .add-button {
   cursor: pointer;
-  padding: 10px 12px;
+  padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
   border-radius: 8px;
-  background-color: blue;
+  background-color: lavender;
 }
 
 .add-button:hover {
-  background-color: chartreuse;
+  background-color: linen;
 }

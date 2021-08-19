@@ -1,0 +1,39 @@
+.add-task-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.task-input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 42px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.add-task-input-wrapper {
+  flex-direction: column;
+  margin: 10px 15px 15px 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.submit-button {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border-radius: 8px;
+  background-color: palegoldenrod;
+}
+
+.disabled {
+  cursor: disabled;
+  opacity: 0.5;
+}
