@@ -1,6 +1,6 @@
 ### Project description:
 
-This application developed using useState and inputRef hooks. Mainly focussed on data transfer from one component to another component and updation of state from various places
+This application developed using react and main hooks used are useState and inputRef. Mainly focussed on data transfer from one component to another component and updation of state from various places
 
 You can perform following actions in this project
 
