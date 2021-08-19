@@ -1,6 +1,6 @@
 import Task from "../task/task";
 import "./Tasks.css";
-const Tasks = ({ tasks, removeFromList, setAsChecked }) => {
+const Tasks = ({ tasks, removeFromList, setAsChecked, isAddingTask }) => {
   return (
     <>
       {tasks && tasks?.length ? (
@@ -12,8 +12,10 @@ const Tasks = ({ tasks, removeFromList, setAsChecked }) => {
             setAsChecked={setAsChecked}
           />
         ))
-      ) : (
+      ) : !isAddingTask ? (
         <p>No Tasks. Please click on add to add one.</p>
+      ) : (
+        ""
       )}
     </>
   );

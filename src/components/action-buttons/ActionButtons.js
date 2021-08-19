@@ -1,9 +1,11 @@
 import "./ActionButtons.css";
 
-const ActionButtons = () => {
+const ActionButtons = ({ setIsAddingTask, isAddingTask }) => {
   return (
     <div className="actions-container">
-      <button className="add-button">Add</button>
+      <button className="add-button" onClick={setIsAddingTask}>
+        {isAddingTask ? "Close" : "Add"}
+      </button>
     </div>
   );
 };
