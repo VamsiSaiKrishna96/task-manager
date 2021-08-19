@@ -45,3 +45,5 @@ You have to raise a pull request to `main` branch in order to deploy it to GitHu
 You can access application live on - 
 Deploying with a workflow file written in `yml`.
 
+Open [https://vamsisaikrishna96.github.io/task-manager/](https://vamsisaikrishna96.github.io/task-manager/) to view application in the browser.
+
