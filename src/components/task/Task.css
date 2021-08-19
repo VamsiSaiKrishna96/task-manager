@@ -8,6 +8,7 @@
   padding: 5px 5px 5px 10px;
   margin: 10px 15px;
   cursor: pointer;
+  user-select: none;
 }
 
 .checked {
@@ -20,4 +21,9 @@
 
 .delete {
   cursor: pointer;
+}
+
+.cross-image {
+  width: 24px;
+  height: 24px;
 }
