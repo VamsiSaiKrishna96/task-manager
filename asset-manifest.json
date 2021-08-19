@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-task-manager-state/static/css/main.d279da7d.chunk.css",
-    "main.js": "/react-task-manager-state/static/js/main.13232ac9.chunk.js",
-    "main.js.map": "/react-task-manager-state/static/js/main.13232ac9.chunk.js.map",
-    "runtime-main.js": "/react-task-manager-state/static/js/runtime-main.fc517a50.js",
-    "runtime-main.js.map": "/react-task-manager-state/static/js/runtime-main.fc517a50.js.map",
-    "static/js/2.3f270bda.chunk.js": "/react-task-manager-state/static/js/2.3f270bda.chunk.js",
-    "static/js/2.3f270bda.chunk.js.map": "/react-task-manager-state/static/js/2.3f270bda.chunk.js.map",
-    "static/js/3.55c5b451.chunk.js": "/react-task-manager-state/static/js/3.55c5b451.chunk.js",
-    "static/js/3.55c5b451.chunk.js.map": "/react-task-manager-state/static/js/3.55c5b451.chunk.js.map",
+    "main.css": "/react-task-manager-state/static/css/main.28d7b860.chunk.css",
+    "main.js": "/react-task-manager-state/static/js/main.bbaf42d3.chunk.js",
+    "main.js.map": "/react-task-manager-state/static/js/main.bbaf42d3.chunk.js.map",
+    "runtime-main.js": "/react-task-manager-state/static/js/runtime-main.d22e2663.js",
+    "runtime-main.js.map": "/react-task-manager-state/static/js/runtime-main.d22e2663.js.map",
+    "static/js/2.5eff3733.chunk.js": "/react-task-manager-state/static/js/2.5eff3733.chunk.js",
+    "static/js/2.5eff3733.chunk.js.map": "/react-task-manager-state/static/js/2.5eff3733.chunk.js.map",
+    "static/js/3.47ed17e1.chunk.js": "/react-task-manager-state/static/js/3.47ed17e1.chunk.js",
+    "static/js/3.47ed17e1.chunk.js.map": "/react-task-manager-state/static/js/3.47ed17e1.chunk.js.map",
     "index.html": "/react-task-manager-state/index.html",
-    "static/css/main.d279da7d.chunk.css.map": "/react-task-manager-state/static/css/main.d279da7d.chunk.css.map",
-    "static/js/2.3f270bda.chunk.js.LICENSE.txt": "/react-task-manager-state/static/js/2.3f270bda.chunk.js.LICENSE.txt",
+    "static/css/main.28d7b860.chunk.css.map": "/react-task-manager-state/static/css/main.28d7b860.chunk.css.map",
+    "static/js/2.5eff3733.chunk.js.LICENSE.txt": "/react-task-manager-state/static/js/2.5eff3733.chunk.js.LICENSE.txt",
     "static/media/cross.2add4b66.svg": "/react-task-manager-state/static/media/cross.2add4b66.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc517a50.js",
-    "static/js/2.3f270bda.chunk.js",
-    "static/css/main.d279da7d.chunk.css",
-    "static/js/main.13232ac9.chunk.js"
+    "static/js/runtime-main.d22e2663.js",
+    "static/js/2.5eff3733.chunk.js",
+    "static/css/main.28d7b860.chunk.css",
+    "static/js/main.bbaf42d3.chunk.js"
   ]
 }
