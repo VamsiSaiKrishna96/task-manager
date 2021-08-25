@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import TaskContainer from "./components/task-container/TaskContainer";
 
 function App() {
+  // using multiple use state hooks and their manipulation
   const [tasks, setTasks] = useState([]);
 
   const [isAddingTask, setIsAddingTask] = useState(false);
